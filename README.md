@@ -22,4 +22,4 @@ Concepts and frameworks learned with this project:
 - Train a model to predict the best possible response 
 - Sugestions implementations
 
-**To learn more about this project click** [here]
+**To learn more about this project click** [here](https://github.com/SusanaMarques/Angie-Chatbot-APP/blob/main/Angie_report.pdf)
