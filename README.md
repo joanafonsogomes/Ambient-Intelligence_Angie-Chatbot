@@ -15,7 +15,7 @@ This project consists of a chatbot with the ability to assess the predominant em
 
 ![final](https://github.com/SusanaMarques/Angie-Chatbot-APP/blob/main/images/sugestions.png)
 
-**The analysis of feelings was performed with the aim of representing 3 emotional states: Positive, Neutral and Negative.
+**The analysis of feelings was performed with the aim of representing 3 emotional states: Positive, Neutral and Negative.**
 
 The created character, **Angie**, gives life to the friend ready to help any user in the fight against loneliness and sadness, offering support and adequate solutions that improve the user's state of mind.
 
