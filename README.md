@@ -32,3 +32,7 @@ Concepts and frameworks learned with this project:
 - Sugestions implementation
 
 **To learn more about this project click** [here](https://github.com/SusanaMarques/Angie-Chatbot-APP/blob/main/Angie_report.pdf)
+
+
+
+###### By [@DxMonteiro](https://github.com/DxMonteiro), [@joanafonsogomes](https://github.com/joanafonsogomes), [@mariajbp](https://github.com/mariajbp) & [@SusanaMarques](https://github.com/SusanaMarques)
