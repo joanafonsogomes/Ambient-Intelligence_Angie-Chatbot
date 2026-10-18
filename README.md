@@ -1,38 +1,63 @@
-# Angie Chatbot APP
+# Angie — NLP & Sentiment Analysis Chatbot
 
-## Chatbot that assesses the predominant emotion in the message with natural language processing support
+**An interactive chatbot combining Natural Language Processing, intent classification, and sentiment analysis.**
 
-This project consists of a chatbot with the ability to assess the predominant emotion in the received text and display it together with the message. The dialogue manager is responsible not only for transforming the message received into a response but also for maintaining the illusion that it is a conversation between two human beings. 
+Academic project developed at the University of Minho as part of the *Ambient Intelligence* course.
 
-![final](https://github.com/SusanaMarques/Angie-Chatbot-APP/blob/main/images/initial.png)
+## Overview
 
+Angie is a desktop chatbot designed to provide conversational interactions while identifying the emotional tone of user messages.
 
-![final](https://github.com/SusanaMarques/Angie-Chatbot-APP/blob/main/images/send.png)
+The application combines a neural network-based intent classification model with natural language processing techniques to generate responses and classify messages into three sentiment categories: **Positive, Neutral, and Negative**.
 
-**Additionally, the user can configure a set of automatic responses to common questions.**
+The project also explores user interaction tracking, data visualization, and customizable conversational responses.
 
-![final](https://github.com/SusanaMarques/Angie-Chatbot-APP/blob/main/images/sugestions_click.png)
+## Tech Stack
 
-![final](https://github.com/SusanaMarques/Angie-Chatbot-APP/blob/main/images/sugestions.png)
+| Area | Technologies |
+|---|---|
+| Programming Language | Python |
+| Machine Learning | Keras, TensorFlow, NumPy |
+| Natural Language Processing | NLTK, spaCy |
+| User Interface | PyQt5 |
+| Data Processing | Pandas |
+| Data Visualization | Matplotlib |
+| Communication | TCP Sockets |
 
-**The analysis of feelings was performed with the aim of representing 3 emotional states: Positive, Neutral and Negative.**
+## Key Features
 
-The created character, **Angie**, gives life to the friend ready to help any user in the fight against loneliness and sadness, offering support and adequate solutions that improve the user's state of mind.
+- **Intent Recognition** — Neural network-based classification of user messages to identify conversational intents and select appropriate responses.
+- **Sentiment Analysis** — Classification of messages as positive, negative, or neutral using NLP preprocessing and sentiment lexicons.
+- **Interactive Chat Interface** — Desktop interface supporting real-time conversations.
+- **Customizable Responses** — Users can add conversational patterns and corresponding responses.
+- **Conversation Personalization** — A configurable set of predefined responses to common questions.
+- **Interaction Analytics** — Logging and visualization of sentiment trends and interaction statistics.
 
-![final](https://github.com/SusanaMarques/Angie-Chatbot-APP/blob/main/images/final.png)
+## Machine Learning & NLP
 
-Concepts and frameworks learned with this project:
+The chatbot uses a feedforward neural network built with Keras to classify user intents.
 
-- Natural Language ToolKit spaCy
-- Pynput
-- Sentimental Analysis
-- Natural Language Processing
-- Text Analysis
-- Training of a model to predict the best possible response 
-- Sugestions implementation
+The training pipeline includes:
 
-**To learn more about this project click** [here](https://github.com/SusanaMarques/Angie-Chatbot-APP/blob/main/Angie_report.pdf)
+1. Text tokenization and lemmatization using NLTK.
+2. Bag-of-words feature extraction.
+3. Intent classification using a neural network with two hidden layers and dropout regularization.
+4. Response selection based on the predicted intent.
 
+Sentiment analysis is implemented separately using spaCy preprocessing and positive/negative word lexicons.
 
+## Architecture
 
-###### By [@DxMonteiro](https://github.com/DxMonteiro), [@joanafonsogomes](https://github.com/joanafonsogomes), [@mariajbp](https://github.com/mariajbp) & [@SusanaMarques](https://github.com/SusanaMarques)
+The application follows a client-server approach, separating the graphical interface from the chatbot's response-processing service.
+
+## Documentation
+
+For a more detailed explanation of the implementation and project methodology, see the [project report](Angie_report.pdf).
+
+## Project Context
+
+Developed as a group assignment at the University of Minho.
+
+The repository preserves the original academic implementation and its historical dependencies.
+
+###### By [@joanafonsogomes](https://github.com/joanafonsogomes), [@DxMonteiro](https://github.com/DxMonteiro), [@mariajbp](https://github.com/mariajbp) & [@SusanaMarques](https://github.com/SusanaMarques)
